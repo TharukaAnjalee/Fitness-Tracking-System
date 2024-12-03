@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i"
+    android:padding="45dp"
+    tools:context=".sixthpage">
+
+    <TextView
+        android:id="@+id/userdetailsId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Details"
+        android:textColor="#E4F168"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileId"
+        android:src="@drawable/g"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+            <TextView
+                android:id="@+id/fId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:text="User Name"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/answer1"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fId"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TextView
+                android:id="@+id/dobId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DOB"
+                android:layout_marginTop="5dp"
+                android:layout_below="@+id/answer1"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/answer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Birthday"
+                android:layout_below="@+id/dobId"
+                android:inputType="date"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/genderId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/answer2"
+                android:text="Gender"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/answer3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/genderId"
+                android:hint="Female,Male"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/weightId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/answer3"
+                android:text="Weight"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/answer4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weightId"
+                android:inputType="number"
+                android:hint="45Kg"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/contactId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/answer4"
+                android:text="Contact No"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/answer5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/contactId"
+                android:hint="070 000 000 0"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/countryId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/answer5"
+                android:text="Country"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/answer6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/countryId"
+                android:hint="Sri Lanka"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answer6"
+        android:layout_marginTop="43dp"
+        android:layout_centerHorizontal="true"
+        android:text="Next"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#EBF39F"
+        android:textStyle="bold" />
+
+</RelativeLayout>

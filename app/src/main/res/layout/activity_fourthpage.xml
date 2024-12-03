@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    android:padding="30dp"
+    tools:context=".fourthpage">
+
+    <TextView
+        android:id="@+id/exeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercise"
+        android:layout_marginTop="10dp"
+        android:textColor="#E4F168"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exeId"
+        android:layout_marginTop="20dp"
+        android:text="MONDAY           -          CHEST "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tuesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/monday"
+        android:layout_marginTop="20dp"
+        android:text="TUESDAY          -          BACK "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/wednesday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tuesday"
+        android:layout_marginTop="20dp"
+        android:text="WEDNESDAY    -          BICEP "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/thursday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wednesday"
+        android:layout_marginTop="20dp"
+        android:text="THURSDAY       -      TRICEPS AND ABS "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thursday"
+        android:layout_marginTop="20dp"
+        android:text="FRIDAY              -          SHOULDER "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friday"
+        android:layout_marginTop="20dp"
+        android:text="SATURDAY       -          LEGS "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/saturday"
+        android:layout_marginTop="20dp"
+        android:text="SUNDAY             -          REST "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/agreettn"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sunday"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#F1DEDE"
+        android:text="Agree"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textColorHint="#050505"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

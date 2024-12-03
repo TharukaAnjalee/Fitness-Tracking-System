@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/n"
+    android:padding="30dp"
+    tools:context=".eightpage">
+
+    <TextView
+        android:id="@+id/purchaseId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Purchases"
+        android:textColor="#E4F168"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/purchaseinputId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/purchaseId"
+        android:hint="Enter Package"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp" />
+
+
+    <EditText
+        android:id="@+id/dateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/purchaseinputId"
+        android:hint="Transaction Date"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/purchasedateId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dateId"
+        android:hint="Purchase Date"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/purchasedateId"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#A9D8F1"
+        android:text=" Done"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

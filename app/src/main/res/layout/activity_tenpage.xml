@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/t"
+    tools:context=".tenpage">
+
+    <ImageView
+        android:id="@+id/horayId"
+        android:layout_width="match_parent"
+        android:layout_height="409dp"
+        android:src="@drawable/r" />
+
+    <ImageView
+        android:id="@+id/ladyId"
+        android:layout_width="220dp"
+        android:layout_height="240dp"
+        android:layout_below="@+id/horayId"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/s" />
+
+    <TextView
+        android:id="@+id/paymentId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ladyId"
+        android:fontFamily="sans-serif-black"
+        android:text="Payment Successful"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/thankId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paymentId"
+        android:fontFamily="sans-serif"
+        android:text="Thank You for choosing Fit Me"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp" />
+
+</RelativeLayout>

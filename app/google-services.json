@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "473626352881",
+    "project_id": "fitness-tracking-system-4bc80",
+    "storage_bucket": "fitness-tracking-system-4bc80.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473626352881:android:a7e4ce2f96245d0c8d1d50",
+        "android_client_info": {
+          "package_name": "com.example.fitnesstrackingsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_AR3DIerjZ6M0iFWCn_UqgdrUYRk12I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

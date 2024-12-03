@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/m"
+    android:padding="30dp"
+    tools:context=".seventhpage">
+
+    <TextView
+        android:id="@+id/trainerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trainers"
+        android:textColor="#E4F168"
+        android:textSize="45dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/masterId"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trainerId"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7178CF"
+        android:text="Master Coach"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/masterphoto"
+        android:layout_width="128dp"
+        android:layout_height="121dp"
+        android:layout_below="@+id/trainerId"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/j" />
+
+    <Button
+        android:id="@+id/juniorId"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/masterId"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="18dp"
+        android:backgroundTint="#FEFEFE"
+        android:text="Junior Coach"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/juniorphoto"
+        android:layout_width="wrap_content"
+        android:layout_height="147dp"
+        android:layout_below="@+id/juniorId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="238dp"
+        android:src="@drawable/k" />
+
+    <Button
+        android:id="@+id/eliteId"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/juniorId"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="133dp"
+        android:backgroundTint="#7178CF"
+        android:text="Elite Coach"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/elitephoto"
+        android:layout_width="186dp"
+        android:layout_height="147dp"
+        android:layout_below="@+id/juniorId"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="185dp"
+
+        android:layout_marginEnd="195dp"
+        android:layout_marginBottom="59dp"
+        android:src="@drawable/l" />
+
+
+</RelativeLayout>
